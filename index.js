@@ -11,7 +11,7 @@ client.on('ready', () => {
     job.start();
 });
 
-var job = new CronJob('30 * * * *', function () {
+var job = new CronJob('*/30 * * * *', function () {
     try {
         var randomImage = randomLine.line('./images/images.txt');
         client.user.setAvatar(randomImage);
