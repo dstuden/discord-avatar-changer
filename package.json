@@ -1,0 +1,25 @@
+{
+  "name": "discord-avatar-changer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dstuden/discord-avatar-changer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dstuden/discord-avatar-changer/issues"
+  },
+  "homepage": "https://github.com/dstuden/discord-avatar-changer#readme",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "discord.js.old": "^11.6.5",
+    "dotenv": "^9.0.2",
+    "fs": "*"
+  }
+}
