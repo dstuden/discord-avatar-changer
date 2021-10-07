@@ -1,4 +1,4 @@
-const Discord = require('discord.js.old');
+const Discord = require('discord.js');
 const randomLine = require('./images/randomImage.js');
 var CronJob = require('cron').CronJob;
 

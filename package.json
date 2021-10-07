@@ -18,7 +18,7 @@
   "homepage": "https://github.com/dstuden/discord-avatar-changer#readme",
   "dependencies": {
     "cron": "^1.8.2",
-    "discord.js.old": "^11.6.5",
+    "discord.js": "^11.6.2",
     "dotenv": "^9.0.2",
     "fs": "*"
   }
